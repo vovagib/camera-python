@@ -46,11 +46,12 @@ def start(event):
                 cap = cv2.VideoCapture(uri.get())
                 show_frame()
                 return;
-
+#Кнопка старта
 btn = tk.Button(window, text = 'Start', width = 30, height = 5)
 btn.grid(row = 3, column = 0, padx = 2, pady = 2)
 btn.bind("<Button-1>", start)
 
+#Строка ввода адреса
 uri = tk.StringVar()
 uri_entry = tk.Entry(textvariable = uri)
 uri_entry.grid(row = 2, column = 0, padx = 2, pady = 2)
