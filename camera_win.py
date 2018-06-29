@@ -57,8 +57,8 @@ uri_entry = tk.Entry(textvariable = uri)
 uri_entry.grid(row = 2, column = 0, padx = 2, pady = 2)
 
 #Размеры окна
-sliderFrame = tk.Frame(window, width=600, height=100)
-sliderFrame.grid(row = 600, column=0, padx=10, pady=2)
+#sliderFrame = tk.Frame(window, width=600, height=100)
+#sliderFrame.grid(row = 600, column=0, padx=10, pady=2)
 
 show_frame()  #Запуск видеозахвата
 window.mainloop()  #Запуск интерфейса
